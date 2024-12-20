@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Express.js route handlers: missing error handling for invalid input. The `bug.js` file shows the problematic code, where an attempt to parse a user ID as an integer lacks error handling.  This can lead to crashes if the ID is not a valid number. The `bugSolution.js` file shows the corrected version with added error handling.
